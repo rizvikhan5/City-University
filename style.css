@@ -1,0 +1,144 @@
+body{
+    background: url(bg.jpeg) ;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    min-width: auto;
+    min-height: 100vh;
+    opacity: 20px;
+    
+
+}
+
+
+.logo{
+    height: 150px;
+    margin: 25px;
+}
+
+
+
+.nav{
+    display: inline-flex;
+    align-items: center;
+    gap: 80px;
+}
+
+
+
+.nav h1{
+    font-size: 40px;
+    color: orangered;
+}
+
+
+.login-logo{
+    height: 50px;
+    margin-left: -60px;
+}
+
+
+.container{
+    /* background: green; */
+    
+    color: black;
+    border: 2px solid rgba(255, 255, 255, 0.1) ;
+    backdrop-filter: blur(30px);
+    background-color: [cornsilk];
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    margin-left: 30%;
+    width: 500px;
+}
+
+.container h2{
+    font-size: 35px;
+    text-align: center;
+}
+
+.container h3{
+    font-size: 20px;
+    text-align: center;
+}
+
+
+.continue-img {
+    display: flex;
+   margin-left: 80px;
+    width: 60px;
+    /* align-items: ; */
+    height: 40px;
+    gap: 30px;
+}
+
+
+
+
+.container p{
+    color:black;
+    font-size: 20px ;
+}
+
+.container .inpurFile{
+    
+    position: relative;
+    width: 100%;
+    height: 40px;
+    margin: 20px 0;
+}
+
+.inpurFile input{
+    border: 5px black solid;
+    
+    width: 100%;
+    height: 80%;
+    border: none;
+    outline: none;
+    font-size: 20px;
+   padding:  5px;
+   border-radius: 5px;
+}
+
+.inpurFile input::placeholder{
+    color: gray;
+}
+
+ .forget a{
+    align-items: end;
+    color: white;
+    text-decoration: none;
+    
+    
+}
+
+.forget a:hover{
+    text-decoration: underline;
+   
+}
+
+.btn{
+    background-color: orangered;
+    color: white;
+    margin-top: 20px;
+    width: 100%;
+    height: 40px;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+
+.register  a{
+    color: white;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.register a:hover{
+    text-decoration: underline;
+    
+
+}
